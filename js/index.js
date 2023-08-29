@@ -3,7 +3,7 @@ let jsonData = {
 };
 
 async function fetchCalendarData() {
-  await fetch("../timcard.cfm")
+  await fetch("./timcard.cfm")
     .then((response) => response.text())
     .then((text) => {
       // Extract JSON part from the response using string manipulation
