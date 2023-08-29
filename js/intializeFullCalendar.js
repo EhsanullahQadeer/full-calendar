@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", async function () {
   }
   var calendarEl = document.getElementById("iCalendar");
   var calendar = new FullCalendar.Calendar(calendarEl, {
-    // initialView: "dayGridMonth",
     initialView: "multiMonthYear",
     headerToolbar: {
       right: "prev,next today dayGridMonth,dayGridWeek",
